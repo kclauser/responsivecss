@@ -1,0 +1,61 @@
+#header {
+  padding: 15px 20px;
+  background: #f3f3f3;
+}
+
+a {
+  outline: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+#header ul {
+  float: right;
+  margin-right: 9px;
+}
+
+#header ul li {
+  display: list-item;
+  float: left;
+  margin-left: 15px;
+  line-height: 25px;
+  color: #000;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+body {
+  font: 13px helvetica;
+  line-height: 1.4em;
+  background-color: #fff;
+  color: #333333;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+#wrapper {
+  padding-bottom: 150px
+}
+
+.shell {
+
+}
+
+.shell .footer {
+  font-size: 16px;
+  color: #666;
+  font-weight: bold;
+  text-align: right;
+  padding: 12px 0 12px 0;
+  margin: 0 12px 22px;
+  border-bottom: 1px solid #cacaca;
+  position: relative;
+}
