@@ -46,9 +46,16 @@ body {
 }
 
 .shell {
-
+  width: 470px;
+  height: 527;
+  background-color: yellow;
 }
 
+.picborder {
+  outline-style: solid;
+  outline-width: 1px;
+  border-radius: 3px;
+}
 .shell .footer {
   font-size: 16px;
   color: #666;
@@ -58,4 +65,8 @@ body {
   margin: 0 12px 22px;
   border-bottom: 1px solid #cacaca;
   position: relative;
+}
+
+.shellimg {
+  width: 424px;
 }
