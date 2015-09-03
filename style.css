@@ -39,6 +39,8 @@ body {
   margin: 0px;
   padding: 0px;
   height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media(min-width: 470px) {
@@ -61,13 +63,14 @@ body {
 
 #wrapper {
   padding-bottom: 150px
-  width:
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .shell {
   width: 470px;
   height: 527px;
-  background-color: yellow;
+  background-color: ;
   float: left;
   display: inline-block;
 }
@@ -87,6 +90,10 @@ body {
   border-bottom: 1px solid #cacaca;
   position: relative;
   clear: both;
+}
+
+.footer a{
+  display: inline-block;
 }
 
 .number {
