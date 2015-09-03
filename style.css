@@ -41,15 +41,35 @@ body {
   height: 100%;
 }
 
+@media(min-width: 470px) {
+  #wrapper {
+    width: 470px;
+  }
+}
+
+@media(min-width: 940px) {
+  #wrapper {
+    width: 940px;
+  }
+}
+
+@media(min-width: 1410px) {
+  #wrapper {
+    width: 1410px;
+  }
+}
+
 #wrapper {
   padding-bottom: 150px
-  widt
+  width:
 }
 
 .shell {
   width: 470px;
   height: 527px;
   background-color: yellow;
+  float: left;
+  display: inline-block;
 }
 
 .picborder {
