@@ -38,7 +38,7 @@ body {
   color: #333333;
   margin: 0px;
   padding: 0px;
-  height: 100%;
+  /*height: 100%;*/
   margin-left: auto;
   margin-right: auto;
 }
@@ -62,10 +62,19 @@ body {
 }
 
 #wrapper {
-  padding-bottom: 150px
-  margin-left: auto;
-  margin-right: auto;
+  padding-bottom: 150px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  display: block;
+  min-width: 470px;
+  margin: 0 auto;
 }
+
+/*#wrapper {
+  display: block;
+  margin: 0 auto;
+  min-width: 470px;
+}*/
 
 .shell {
   width: 470px;
@@ -103,18 +112,21 @@ vertical-align: middle;
   color: #cacaca;
 }
 
-.purchasable {
+.footerimg {
   vertical-align: middle;
-    float: right;
     margin: 5px 0;
     color: #cacaca;
 }
 
-.footerimg {
+.purchasable {
   vertical-align: middle;
-    float: right;
+  display: inline;
     margin: 5px 0;
     color: #cacaca;
+}
+
+.footer p {
+   display: inline;
 }
 
 .shellimg {
