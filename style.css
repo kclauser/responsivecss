@@ -61,7 +61,19 @@ body {
   }
 }
 
-/*.wrapper {
+@media(min-width: 1880px) {
+  .wrapper {
+    width: 1880px;
+  }
+}
+
+@media(min-width: 2350px) {
+  .wrapper {
+    width: 2350px;
+  }
+}
+
+/*.wrapper {                    Leaving this code in to play with later.
   padding-bottom: 150px;
   margin-left: auto;
   margin-right: auto;
