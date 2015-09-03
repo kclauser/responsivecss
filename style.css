@@ -44,38 +44,37 @@ body {
 }
 
 @media(min-width: 470px) {
-  #wrapper {
+  .wrapper {
     width: 470px;
   }
 }
 
 @media(min-width: 940px) {
-  #wrapper {
+  .wrapper {
     width: 940px;
   }
 }
 
 @media(min-width: 1410px) {
-  #wrapper {
+  .wrapper {
     width: 1410px;
   }
 }
 
-#wrapper {
+/*.wrapper {
   padding-bottom: 150px;
-  /*margin-left: auto;
-  margin-right: auto;*/
+  margin-left: auto;
+  margin-right: auto;
   display: block;
   min-width: 470px;
   padding-top: 20px;
-  margin: 0 auto;
-}
+}*/
 
-/*#wrapper {
+.wrapper {
   display: block;
   margin: 0 auto;
   min-width: 470px;
-}*/
+}
 
 .shell {
   width: 470px;
