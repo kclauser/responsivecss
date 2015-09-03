@@ -39,8 +39,8 @@ body {
   margin: 0px;
   padding: 0px;
   /*height: 100%;*/
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
 }
 
 @media(min-width: 470px) {
@@ -67,6 +67,7 @@ body {
   margin-right: auto;*/
   display: block;
   min-width: 470px;
+  padding-top: 20px;
   margin: 0 auto;
 }
 
@@ -110,6 +111,7 @@ vertical-align: middle;
   float: left;
   margin: 5px 0;
   color: #cacaca;
+  margin-top: 12px;
 }
 
 .footerimg {
